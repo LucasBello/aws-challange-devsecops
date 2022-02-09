@@ -14,7 +14,7 @@ A ideia é entender objetivamente como você coloca seu conhecimento em prática
 
 3 - Use a documentação que desejar para se guiar mas não faça referência a nenhum site ou artigo publicado. Estamos à procura de conteúdo original.
 
-4 - Você terá um período de até 15 dias para realizar o projeto, caso precise de mais tempo ou finalizar antes deste prazo, não tem problema, basta nos avisar. Não estamos procurando quão rápido você pode ser. É apenas para nos dar uma ideia mais clara do que você produziu no tempo que decidiu levar. Sinta-se à vontade para definir o andamento de sua evolução.
+4 - Você terá um período de 15 dias para realizar o projeto, caso precise de mais tempo ou finalizar antes deste prazo não tem problema, basta nos avisar. Não estamos procurando quão rápido você pode ser. É apenas para nos dar uma ideia mais clara do que você produziu no tempo que decidiu levar. Sinta-se à vontade para definir o andamento de sua evolução.
 
 5 - Além de apresentar os arquivos de automação utilizados, ao final você irá realizar uma apresentação tecnico/comercial .A leitura da documentação é o diferencial, portanto fique à vontade para ser o quão técnico, ilustrativo e dissertativo desejar.
 
