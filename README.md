@@ -23,4 +23,4 @@ Boa sorte!
 Não se esqueça de excluir sua pilha do CloudFormation para que você não seja cobrado quando seu nível gratuito expirar.
 
 ### Grande-Diferencial-Master
-O projeto subir no ambiente de testes apenas com o conteúdo do repositório enviado.
+O projeto subir no ambiente de testes a partir do repositório enviado.
