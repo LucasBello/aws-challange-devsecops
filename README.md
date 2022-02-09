@@ -37,9 +37,9 @@ Não se esqueça de excluir sua pilha do CloudFormation ou dar Destroy no Terraf
  
   <img align="left" alt="JonesTip" height="30" style="border-radius:10px;" src="https://github.com/LucasBello/aws-challange-devsecops/blob/main/srcimg/ander.gif?raw=true"> O projeto subir em novo ambiente de testes a partir do repositório enviado.
   
-   <img align="left" alt="JonesTip" height="30" style="border-radius:10px;" src="https://github.com/LucasBello/aws-challange-devsecops/blob/main/srcimg/meleon.gif?raw=true"> O projeto conter um ambiente com servidor de monitoração com dashboard (graphana, Prometheus, etc).
+   <img align="left" alt="JonesTip" height="30" style="border-radius:10px;" src="https://github.com/LucasBello/aws-challange-devsecops/blob/main/srcimg/meleon.gif?raw=true"> Projeto conter um ambiente com servidor com uma solução de DAST (Analise Dinamica de Codigo) identificando as vulnerabilidades com a aplicação em execução.
    
- <img align="left" alt="JonesTip" height="30" style="border-radius:10px;" src="https://github.com/LucasBello/aws-challange-devsecops/blob/main/srcimg/izard.gif?raw=true"> Ter um ambiente resiliente que possa ser testado e com automatização de alertas de monitoração em tempo real.
+ <img align="left" alt="JonesTip" height="30" style="border-radius:10px;" src="https://github.com/LucasBello/aws-challange-devsecops/blob/main/srcimg/izard.gif?raw=true"> Apresentar os resultados centralizados em dashboard (Graphana, Kibana, etc.)
 
 ## Conclusão
 A primeira intenção do desafio é que você se divirta. Estamos interessados em analisar forma que você expressa suas ideias através da realização do projeto, isso é o mais importante. Mesmo que não consiga entregar todos os pontos o que importa é a coerencia da resulução.
