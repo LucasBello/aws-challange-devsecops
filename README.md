@@ -1,11 +1,12 @@
 # AWS Challange para DevSecOps
+![Logo](https://github.com/LucasBello/aws-challange-devsecops/blob/main/srcimg/folder.png?raw=true)
 
 Bem-vindo ao desafio, 
 
 Em geral, sinta-se à vontade para expandir e alterar o desafio da maneira que desejar, apenas explique sua solução e tomada de decisão, suas preocupações durante a arquitetura, limitações do projeto, etc.
 
 A ideia é entender objetivamente como você coloca seu conhecimento em prática.
-
+<img align="right" alt="Foco" height="150" style="border-radius:0px;" src="https://github.com/LucasBello/aws-challange-devsecops/blob/main/srcimg/focus.gif?raw=true">
 ## Pontos de entrega
 1 - Faça um Fork deste repositório.
 
@@ -17,8 +18,9 @@ A ideia é entender objetivamente como você coloca seu conhecimento em prática
 
 5 - Além dos arquivos de automação utilizados, o seu Fork deve conter a documentação completa do ambiente. A leitura da documentação é o diferencial, portanto fique à vontade para ser o quão técnico, ilustrativo e dissertativo desejar.
 
-## Instruções:
-`todo este ambiente, incluindo os diferenciais são compatíveis com o nível gatúito fornecido para as contas da AWS`
+
+## Instruções:<img align="left" alt="JonesTip" height="80" style="border-radius:10px;" src="https://github.com/LucasBello/aws-challange-devsecops/blob/main/srcimg/JonesTip.gif?raw=true"> <img align="right" alt="GirlTip" height="80" style="border-radius:10px;" src="https://github.com/LucasBello/aws-challange-devsecops/blob/main/srcimg/GirlTip.gif?raw=true">
+`O ambiente, incluindo os diferenciais são compatíveis com o nível gatúito fornecido para as contas da AWS`
  - Seguir os pontos de entrega.
  - Implementar uma instalação do SonarQube na AWS e demonstrar seu funcionamento.
  - O servidor de Banco de Dados deve estar em região diferente do servidor de Aplicação 
@@ -29,22 +31,11 @@ A ideia é entender objetivamente como você coloca seu conhecimento em prática
 ### Dica
 Não se esqueça de excluir sua pilha do CloudFormation ou dar Destroy no Terraform para que você não seja cobrado quando seu nível gratuito expirar.
 
-### Pequeno-Diferencial
- - Utilizar CloudFormation e Ansible
-
-### Medio-Diferencial
- - Utilizar CloudFormation e Ansible
- - O projeto subir em novo ambiente de testes a partir do repositório enviado.
-
-### Grande-Diferencial
- - Utilizar CloudFormation e Ansible
- - O projeto subir em novo ambiente de testes a partir do repositório enviado.
- - O projeto conter um ambiente de monitoração com dashboard.
-
-### Grande-Diferencial-Mestre
- - Utilizar CloudFormation e Ansible
- - O projeto subir em novo ambiente de testes a partir do repositório enviado.
- - O projeto conter um ambiente de monitoração com dashboard.
- - Ter um ambiente resiliente que possa ser testado, monitorado e gerar alertas em tempo real.
-
-
+## Diferenciais
+ <img align="left" alt="JonesTip" height="30" style="border-radius:10px;" src="https://github.com/LucasBello/aws-challange-devsecops/blob/main/srcimg/ball.gif?raw=true"> Utilizar CloudFormation e Ansible
+ 
+  <img align="left" alt="JonesTip" height="30" style="border-radius:10px;" src="https://github.com/LucasBello/aws-challange-devsecops/blob/main/srcimg/ander.gif?raw=true"> O projeto subir em novo ambiente de testes a partir do repositório enviado.
+  
+   <img align="left" alt="JonesTip" height="30" style="border-radius:10px;" src="https://github.com/LucasBello/aws-challange-devsecops/blob/main/srcimg/meleon.gif?raw=true"> O projeto conter um ambiente com servidor de monitoração com dashboard (graphana, Prometheus, etc).
+   
+ <img align="left" alt="JonesTip" height="30" style="border-radius:10px;" src="https://github.com/LucasBello/aws-challange-devsecops/blob/main/srcimg/izard.gif?raw=true"> Ter um ambiente resiliente que possa ser testado e com automatização de alertas de monitoração em tempo real.
