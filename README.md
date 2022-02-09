@@ -22,9 +22,10 @@ A ideia é entender objetivamente como você coloca seu conhecimento em prática
 ## Instruções:<img align="left" alt="JonesTip" height="80" style="border-radius:10px;" src="https://github.com/LucasBello/aws-challange-devsecops/blob/main/srcimg/JonesTip.gif?raw=true"> <img align="right" alt="GirlTip" height="80" style="border-radius:10px;" src="https://github.com/LucasBello/aws-challange-devsecops/blob/main/srcimg/GirlTip.gif?raw=true">
 `O ambiente, incluindo os diferenciais são compatíveis com o nível gatúito fornecido para as contas da AWS`
  - Seguir os pontos de entrega.
- - Implementar uma instalação do SonarQube na AWS e demonstrar seu funcionamento.
- - O servidor de Banco de Dados deve estar em região diferente do servidor de Aplicação 
- - A arquitetura da AWS deve ser em CloudFormation ou Terraform
+ - A arquitetura da AWS deve ser em CloudFormation ou Terraform.
+ - Implementar uma instalação do SonarQube na AWS, demonstrar seu funcionamento com pontos de verificação de segurança criando bloqueios para vulnerabilidades criticas e/ou altas
+ - O servidor de Banco de Dados deve estar em região diferente do servidor de Aplicação.
+ - Implementar um ambiente de CI/CD para realizar o teste com o SonarQube
  - A instalação do ambiente, incluindo o diferencial, deve utilizar uma solução de automação a sua escolha Ansible, Puppet, Chef... 
 
 
