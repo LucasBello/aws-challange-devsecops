@@ -30,15 +30,21 @@ A ideia é entender objetivamente como você coloca seu conhecimento em prática
 Não se esqueça de excluir sua pilha do CloudFormation ou dar Destroy no Terraform para que você não seja cobrado quando seu nível gratuito expirar.
 
 ### Pequeno-Diferencial
-Utilizar CloudFormation e Ansible
+ - Utilizar CloudFormation e Ansible
 
 ### Medio-Diferencial
-O projeto subir em novo ambiente de testes a partir do repositório enviado.
+ - Utilizar CloudFormation e Ansible
+ - O projeto subir em novo ambiente de testes a partir do repositório enviado.
 
 ### Grande-Diferencial
-O projeto conter um ambiente de monitoração com dashboard.
+ - Utilizar CloudFormation e Ansible
+ - O projeto subir em novo ambiente de testes a partir do repositório enviado.
+ - O projeto conter um ambiente de monitoração com dashboard.
 
 ### Grande-Diferencial-Mestre
-Ter um ambiente resiliente que possa ser testado, monitorado e gerar alertas em tempo real.
+ - Utilizar CloudFormation e Ansible
+ - O projeto subir em novo ambiente de testes a partir do repositório enviado.
+ - O projeto conter um ambiente de monitoração com dashboard.
+ - Ter um ambiente resiliente que possa ser testado, monitorado e gerar alertas em tempo real.
 
 
