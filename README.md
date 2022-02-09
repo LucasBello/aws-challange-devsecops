@@ -4,6 +4,8 @@ Bem-vindo ao desafio,
 
 Em geral, sinta-se à vontade para expandir e alterar o desafio da maneira que desejar, apenas explique sua solução e tomada de decisão, suas preocupações durante a arquitetura, limitações do projeto, etc.
 
+A ideia é entender objetivamente como você coloca seu conhecimento em prática.
+
 ## Pontos de entrega
 1 - Faça um Fork deste repositório com sua solução.
 
@@ -17,10 +19,15 @@ Em geral, sinta-se à vontade para expandir e alterar o desafio da maneira que d
 
 ## Instruções:
 
-Boa sorte!
 
 ### Dica
 Não se esqueça de excluir sua pilha do CloudFormation para que você não seja cobrado quando seu nível gratuito expirar.
 
-### Grande-Diferencial-Master
+### Diferencial
 O projeto subir no ambiente de testes a partir do repositório enviado.
+
+### Grande-Diferencial
+O projeto conter um ambiente de monitoração com dashboard.
+
+### Grande-Diferencial-Mestre
+
