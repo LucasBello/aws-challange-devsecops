@@ -1,5 +1,6 @@
 resource "aws_security_group" "ssh" {
   name = "ssh"
+  provider = aws.us-east-1
   description = "Acesso SSH"
   ingress {
       from_port = 22
@@ -15,6 +16,7 @@ resource "aws_security_group" "ssh" {
 resource "aws_security_group" "jenkins-sg" {
   name = "jenkins-sg"
   description = "Jenkins-sg"
+  provider = aws.us-east-1
   ingress {
       from_port = 8080
       to_port = 8080
