@@ -7,4 +7,9 @@ resource "aws_instance" "challenge_server" {
   tags = {
     Name = "Challenge_server"
   }
+
+  // Preenche arquivo hosts ansible
+  provisioner "local-exec" {
+    command = "echo ${var.group} ${aws_instance.challenge_server.public_ip} ${var.ssh} ${var.user} > ${var.host_path}"
+  }
 }
