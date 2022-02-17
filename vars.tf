@@ -1,6 +1,6 @@
 variable "amis" {
     default = {
-        "us-east-1" = "ami-04505e74c0741db8d"
+        "us-east-1" = "ami-068663a3c619dd892"
     }
 }
 variable "instance_type" {
