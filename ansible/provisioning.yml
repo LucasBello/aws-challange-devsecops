@@ -1,4 +1,9 @@
 ---
 - hosts: all
+  become: true
   tasks:
-    - shell: 'echo ola > /home/ubuntu/ola.txt'
+
+  - name: 'apt update'
+    remote_user: ubuntu
+    apt:
+      update_cache: yes
