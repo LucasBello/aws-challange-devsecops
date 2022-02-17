@@ -9,7 +9,7 @@
     apt:
       update_cache: yes
 
-  - name: Instalar os pacotes recomendados pelo docker e para o ansible
+  - name: Instalar os pacotes recomendados pro docker e para o ansible
     apt: 
       pkg:
         - apt-transport-https
@@ -20,7 +20,7 @@
         - lsb-release
       state: latest 
 
-  - name: adiciona a chave do repositorio do docker
+  - name: Adiciona a chave do repositorio do docker
     apt_key:
       url: https://download.docker.com/linux/ubuntu/gpg
       state: present
@@ -30,11 +30,29 @@
       repo: deb https://download.docker.com/linux/ubuntu focal stable
       state: present
 
-  - name: atualiza o apt e instala o docker
+  - name: Atualiza o apt e instala o docker e o docker-compose
     apt: 
       update_cache: yes 
       pkg:
         - docker-ce 
         - docker-ce-cli 
         - containerd.io
+        - docker-compose
       state: latest
+
+  - name: Add user ubuntu no grupo docker
+    remote_user: ubuntu
+    user:
+      name: "ubuntu"
+      group: "docker"
+      append: yes
+
+  - name: Baixar repo do docker-compose (Jenkins e Sonarqube)
+    git:
+      repo: https://github.com/thiagoalmeidadon/devsecops-docker-compose.git
+      dest: /home/ubuntu/devsecops-docker-compose
+  
+  - name: Executando docker-compose
+    docker_compose:
+      project_src: /home/ubuntu/devsecops-docker-compose
+    register: output
