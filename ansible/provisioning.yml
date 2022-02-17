@@ -1,9 +1,40 @@
 ---
 - hosts: all
   become: true
+  gather_facts: no
   tasks:
 
-  - name: 'apt update'
+  - name: Update apt
     remote_user: ubuntu
     apt:
       update_cache: yes
+
+  - name: Instalar os pacotes recomendados pelo docker e para o ansible
+    apt: 
+      pkg:
+        - apt-transport-https
+        - software-properties-common
+        - ca-certificates
+        - curl
+        - gnupg
+        - lsb-release
+      state: latest 
+
+  - name: adiciona a chave do repositorio do docker
+    apt_key:
+      url: https://download.docker.com/linux/ubuntu/gpg
+      state: present
+
+  - name: Add o repositorio
+    apt_repository:
+      repo: deb https://download.docker.com/linux/ubuntu focal stable
+      state: present
+
+  - name: atualiza o apt e instala o docker
+    apt: 
+      update_cache: yes 
+      pkg:
+        - docker-ce 
+        - docker-ce-cli 
+        - containerd.io
+      state: latest
