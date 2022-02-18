@@ -56,3 +56,15 @@
     docker_compose:
       project_src: /home/ubuntu/devsecops-docker-compose
     register: output
+
+  - name: Espera a senha inicial do Jenkins
+    wait_for:
+      path: /home/ubuntu/Jenkins/Jenkins_data/secrets/initialAdminPassword
+
+  - name: Salva a senha do Jenkins
+    fetch:
+      src: /home/ubuntu/Jenkins/Jenkins_data/secrets/initialAdminPassword
+      dest: ../senha_jenkins
+      flat: yes
+    become: true
+
