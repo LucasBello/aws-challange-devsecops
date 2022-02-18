@@ -24,12 +24,36 @@ resource "aws_security_group" "jenkins-sg" {
   description = "Jenkins-sg"
   provider = aws.us-east-1
   ingress {
+      description  = "Allow 8080"
       from_port = 8080
       to_port = 8080
       protocol = "tcp"
       cidr_blocks = ["0.0.0.0/0"]
   }
+  ingress {
+      description  = "Allow 5000"
+      from_port = 5000
+      to_port = 5000
+      protocol = "tcp"
+      cidr_blocks = ["0.0.0.0/0"]
+  }
   tags = {
       name = "jenkins-sg"
+  }
+}
+
+resource "aws_security_group" "sonarqube-sg" {
+  name = "sonarqube-sg"
+  description = "sonarqube-sg"
+  provider = aws.us-east-1
+  ingress {
+      description  = "Allow 9000"
+      from_port = 9000
+      to_port = 9000
+      protocol = "tcp"
+      cidr_blocks = ["0.0.0.0/0"]
+  }
+  tags = {
+      name = "sonarqube-sg"
   }
 }
