@@ -1,10 +1,10 @@
 variable "amis" {
     default = {
-        "us-east-1" = "ami-068663a3c619dd892"
+        "us-east-1" = "ami-04505e74c0741db8d"
     }
 }
 variable "instance_type" {
-    default = "t2.micro"
+    default = "t2.large"
 }
 variable "key_name"{
     default = "aws-geral"
