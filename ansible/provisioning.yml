@@ -51,7 +51,7 @@
     git:
       repo: https://github.com/thiagoalmeidadon/devsecops-docker-compose.git
       dest: /home/ubuntu/devsecops-docker-compose
-  
+
   - name: Executando docker-compose
     docker_compose:
       project_src: /home/ubuntu/devsecops-docker-compose
@@ -67,4 +67,5 @@
       dest: ../senha_jenkins
       flat: yes
     become: true
+
 

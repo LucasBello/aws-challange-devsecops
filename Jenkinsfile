@@ -13,16 +13,16 @@ node {
   }
   
   stage('Unzip sonar-scanner') {
-      sh 'unzip sonar-scanner-cli-4.6.2.2472-linux.zip'
+      sh 'unzip -n sonar-scanner-cli-4.6.2.2472-linux.zip'
   }
 
   stage('Executa sonar-scanner') {
       withSonarQubeEnv('sonar') {
             sh 'sonar-scanner-4.6.2.2472-linux/bin/sonar-scanner \
-        -Dsonar.projectKey=nome-key \
+        -Dsonar.projectKey=teste \
         -Dsonar.sources=. \
-        -Dsonar.host.url=host \
-        -Dsonar.login=login-key '
+        -Dsonar.host.url=http://:9000 \
+        -Dsonar.login='
       }
   }
   
