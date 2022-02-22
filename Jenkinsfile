@@ -21,7 +21,7 @@ node {
             sh 'sonar-scanner-4.6.2.2472-linux/bin/sonar-scanner \
         -Dsonar.projectKey=teste \
         -Dsonar.sources=. \
-        -Dsonar.host.url=http://:9000 \
+        -Dsonar.host.url= \
         -Dsonar.login='
       }
   }
